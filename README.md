@@ -1,5 +1,7 @@
 # applescript: get urls from safari tabs
 
+This repo contains a MacOS to get all URLs from Safari tabs and store it to text file in your desktop.
+
 
 **TLDR: **
 ```applescript
@@ -17,4 +19,11 @@ tell application "Safari"
 end tell
 ```
 
+Using Automator (thanks Apple for that amazing tool 😉) I created a service that includes a notification:
 
+![automator](./docs-assets/automator.png)
+
+
+Saved as "fast action" to get a service:
+
+![service](./docs-assets/service.png)
