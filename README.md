@@ -19,11 +19,14 @@ tell application "Safari"
 end tell
 ```
 
+## How to do?
+
+Create a "fast action":
+
+![service](./docs-assets/service.png)
+
+
 Using Automator (thanks Apple for that amazing tool 😉) I created a service that includes a notification:
 
 ![automator](./docs-assets/automator.png)
 
-
-Saved as "fast action" to get a service:
-
-![service](./docs-assets/service.png)
